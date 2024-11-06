@@ -5,4 +5,4 @@ folder = ["OK","CP"]
 for x in folder:
 	try: os.mkdir("/sdcard/FBL {}".format(x))
 	except Exception as e: pass
-rozh.main_line()
+rozh.menu_utama()
